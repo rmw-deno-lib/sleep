@@ -1,13 +1,13 @@
 <!-- 本文件由 ./readme.make.md 自动生成，请不要直接修改此文件 -->
 
-# rmw deno util
+# sleep for seconds
 
 ## sleep
 
 export in your `deps.js`
 
 ```
-export sleep from 'https://deno.land/x/rmw_util@0.0.2/lib/sleep.js'
+export sleep from 'https://deno.land/x/rmw_sleep@0.0.2/lib/sleep.js'
 ```
 
 source code
