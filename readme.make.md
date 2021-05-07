@@ -5,7 +5,7 @@
 export in your `deps.js`
 
 ```
-export sleep from 'https://deno.land/x/rmw_sleep@0.0.2/lib/sleep.js'
+export sleep from 'https://deno.land/x/rmw_sleep@0.0.3/lib/sleep.js'
 ```
 
 source code
