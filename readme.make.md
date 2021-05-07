@@ -3,7 +3,7 @@
 export in your `deps.js`
 
 ```
-export {default as sleep} from 'https://deno.land/x/rmw_sleep@0.0.7/lib/sleep.js'
+export {default as sleep} from 'https://deno.land/x/rmw_sleep@0.0.8/lib/sleep.js'
 ```
 
 source code
