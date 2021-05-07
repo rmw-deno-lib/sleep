@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sleep_test.js",
+  "sourceRoot": "..",
+  "sources": [
+    "src/sleep_test.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA,OAAO,KAAP,MAAA;;AAGG,CAAA,KAAA,CAAA,CAAA,GAAA;AACH,MAAA,CAAA,EAAA;EAAE,CAAA,GAAI;AACJ;SAAM,EAAE,CAAF,GAAM,CAAZ;IACE,OAAO,CAAC,GAAR,CAAY,IAAI,IAAJ,CAAA,CAAZ;iBACA,CAAA,MAAM,KAAA,CAAM,CAAN,CAAN;EAFF,CAAA;;AAFC,CAAA",
+  "sourcesContent": [
+    "import sleep from './sleep.js'\n\n\ndo =>\n  n = 0\n  while ++n < 3\n    console.log new Date()\n    await sleep 1\n"
+  ]
+}
